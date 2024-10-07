@@ -3,6 +3,9 @@ export default {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
+            fontFamily: {
+                coves: ['Coves', 'sans-serif'],
+            },
             colors: {
                 transparent: 'transparent',
                 current: 'currentColor',

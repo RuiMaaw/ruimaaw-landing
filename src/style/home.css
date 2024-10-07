@@ -7,15 +7,9 @@
     margin-right: 10%;
     margin-left: 10%;
 }
-.about-text {
-    bottom: 3rem;
-}
 @media (min-width: 640px) {
     .border-container {
         margin-right: 15%;
         margin-left: 15%;
-    }
-    .about-text {
-        bottom: 6rem;
     }
 }
