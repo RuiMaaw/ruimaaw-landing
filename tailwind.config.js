@@ -10,19 +10,20 @@ export default {
                 transparent: 'transparent',
                 current: 'currentColor',
                 yanami: {
-                    10: '#d3e2f5',
-                    15: '#bbe1f4',
-                    20: '#2b528b',
+                    100: '#d3e2f5',
+                    150: '#bbe1f4',
+                    200: '#2b528b',
                 },
                 komari: {
-                    10: '#FC87B3',
+                    100: '#ffb0ce',
+                    200: '#FC87B3',
                 },
                 lemon: {
-                    10: '#DED735',
+                    100: '#DED735',
                 },
                 nukumizu: {
-                    10: '#FE702E',
-                    20: '#FDAF04',
+                    100: '#FE702E',
+                    200: '#FDAF04',
                 },
             },
         },

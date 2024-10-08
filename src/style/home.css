@@ -1,14 +1,9 @@
-/* .landing{
-    background-image: url("../assets/bg.svg");
-    background-size: 100% 100%;
-} */
-
-.border-container {
+#border-container {
     margin-right: 10%;
     margin-left: 10%;
 }
 @media (min-width: 640px) {
-    .border-container {
+    #border-container {
         margin-right: 15%;
         margin-left: 15%;
     }

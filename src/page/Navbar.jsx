@@ -7,8 +7,12 @@ export default function Navbar() {
                 </a>
                 <ul className='flex gap-10'>
                     <Menu href='#home' text='Home' />
-                    <Menu href='#about' color='komari-10' text='About' />
-                    <Menu href='#contact' color='lemon-10' text='Contact' />
+                    <Menu href='#about' color='text-komari-200' text='About' />
+                    <Menu
+                        href='#contact'
+                        color='text-lemon-100'
+                        text='Contact'
+                    />
                 </ul>
             </div>
         </nav>
@@ -16,12 +20,12 @@ export default function Navbar() {
 }
 
 function Menu(props) {
-    const { text, href, color = 'yanami-20' } = props;
+    const { text, href, color = 'text-yanami-200' } = props;
     return (
         <li>
             <a
                 href={href}
-                className={`text-${color} text-lg tracking-widest font-semibold`}
+                className={`${color} text-lg tracking-widest font-semibold`}
             >
                 {text}
             </a>
