@@ -1,6 +1,6 @@
 export default function Card(props) {
     return (
-        <div className='w-[20%] bg-yanami-150 border border-gray-200 rounded-lg shadow'>
+        <div className=' w-[40%] sm:w-[20%] bg-yanami-150 border border-gray-200 rounded-lg shadow'>
             <a href='#'>
                 <img className='rounded-t-lg' src={props.src} alt='' />
             </a>

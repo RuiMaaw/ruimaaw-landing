@@ -51,8 +51,10 @@ export default function About() {
                 </div>
             </div>
             <Card src={yanami}>
-                <a href="">
-                <h5 className='text-komari-200 hover:text-komari-100 font-bold font-coves tracking-widest'>Certified Yanami Supporter.</h5>
+                <a href=''>
+                    <h5 className='text-komari-200 hover:text-komari-100 text-base sm:text-sm font-bold font-coves tracking-widest'>
+                        Certified Yanami Supporter.
+                    </h5>
                 </a>
             </Card>
         </div>
