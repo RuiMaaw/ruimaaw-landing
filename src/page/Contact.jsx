@@ -17,7 +17,7 @@ export default function Contact() {
                                 className='flex items-center text-sm gap-1'
                             >
                                 <IconBrandWhatsapp size={18} />
-                                +62 851 8388 0971
+                                +62 851-xxxx-xxxx
                             </a>
                         </li>
                         <li>
